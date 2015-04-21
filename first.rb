@@ -11,3 +11,4 @@ puts "enter your name"
 user4=gets
 
 puts "thank #{user1}-#{user2}-#{user3}-#{user4}"
+puts"end of the programm"
