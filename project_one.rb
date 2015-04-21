@@ -15,15 +15,14 @@
 		money1=gets.to_f
 		puts"your balance is #{money1} omani rial"
 
-	else
+	elsif answer1=="no"
 		puts "thank you #{username}"
-	end
 
-	puts "you want other services"
+		puts "you want other services"
 		answer=gets.downcase
 		answer=answer.strip
 
-	if answer=="yes"
+		if answer=="yes"
 
 		puts"how much you want to deposit"
 		money2=gets.to_f
@@ -34,3 +33,12 @@
 
 		puts "thanks you# {username}"
 	end
+
+	else
+		puts" error"
+
+	end
+
+	
+
+	
